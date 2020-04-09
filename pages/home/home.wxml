@@ -1,2 +1,19 @@
 <!--pages/home/home.wxml-->
 <text>pages/home/home.wxml</text>
+<view size="mini" open-type="getUserInfo" bindtap="handleclick"></view>
+<open-data type="userNickName"></open-data> 
+<open-data type="userAvatarUrl"></open-data> 
+<button bindtap="getGlobal">点击</button>
+<text selectable>能选中\n</text>
+<text >默认长按不能选中\n</text>
+<text space="nbsp">hello word</text>
+<button>按钮</button>
+<button size="mini">按钮</button>
+<button size="mini" type="primary">按钮</button>
+
+<button size="mini" type="success">按钮</button>
+<button size="mini" type="warn">按钮</button>
+<button size="mini" plain>按钮</button>
+<button size="mini" disabled>按钮</button>
+<button size="mini" bindtap="ding" loading="{{!isloading}}">按钮</button>   
+<button  type="default" hover-classs="box">按钮</button>

@@ -1,4 +1,0 @@
-<!--pages/about/about.wxml-->
-<text class="text">pages/about/about.wxml</text>
-<button size="mini">按钮</button> 
- <view>知识点1</view>
